@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+repositories{
+    flatDir{
+        dir 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    signingConfigs{
+        debug{
+            storeFile file("C:\\Users\\earthgee\\.android\\debug.keystore")
+        }
+    }
+
+    sourceSets{
+        main{
+            jniLibs.srcDir 'libs'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.earthgee.mymap"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.sothree.slidinguppanel:library:3.3.0'
+    compile 'com.karumi:dexter:2.1.4'
+    compile 'com.google.code.gson:gson:2.3.+'
+    compile files('libs/locSDK_6.13.jar')
+    compile project(':PersistentSearch')
+
+
+}

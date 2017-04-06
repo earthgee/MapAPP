@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/root"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/e_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+    </com.baidu.mapapi.map.MapView>
+    
+    <View
+        android:id="@+id/map_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88ffffff"
+        android:visibility="gone"
+        ></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/iv_location_mode"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_location_mode"
+            android:src="@mipmap/main_icon_location"
+            android:padding="6dp"
+            />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/change_map_show_state"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            fab:fab_addButtonColorNormal="@color/white"
+            fab:fab_addButtonColorPressed="@color/white_pressed"
+            fab:fab_addButtonPlusIconColor="@color/half_black"
+            fab:fab_addButtonSize="mini"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/map_status_3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_title="卫星图"
+                fab:fab_colorPressed="@color/white_pressed"
+                />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/map_status_2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorPressed="@color/white_pressed"
+                fab:fab_size="mini"
+                fab:fab_title="正常"
+                />
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+        
+    </RelativeLayout>
+
+
+</FrameLayout>

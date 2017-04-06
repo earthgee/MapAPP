@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile 'com.balysv.materialmenu:material-menu:1.5.1'
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+}

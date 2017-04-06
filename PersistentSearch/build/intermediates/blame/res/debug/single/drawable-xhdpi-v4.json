@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_clear.png",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_up.png",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_up.png"
+    },
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_clear.png",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_action_mic.png",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_action_mic.png"
+    },
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_bg.9.png",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\search_bg.9.png"
+    },
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_action_mic.png",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_action_mic.png"
+    },
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_bg.9.png",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\search_bg.9.png"
+    },
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_up.png",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\drawable-xhdpi\\ic_up.png"
+    }
+]

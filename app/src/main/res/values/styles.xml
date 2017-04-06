@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#34A2DA</item>
+        <item name="colorPrimaryDark">#34A2D2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#34A2D2</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+
+    <style name="base_progress_bar" parent="Base.Widget.AppCompat.ProgressBar">
+    </style>
+
+    <style name="search_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/item_labels_style</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    
+    <style name="myRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:numStars">5</item>
+        <item name="android:maxHeight">18px</item>
+        <item name="android:minHeight">18px</item>
+    </style>
+
+</resources>

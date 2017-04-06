@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\layout\\search_option.xml",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\layout\\search_option.xml"
+    },
+    {
+        "merged": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\layout\\searchbox.xml",
+        "source": "D:\\android_studio_wp\\MyMap\\PersistentSearch\\src\\main\\res\\layout\\searchbox.xml"
+    },
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\layout\\search_option.xml",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\layout\\search_option.xml"
+    },
+    {
+        "merged": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\build\\intermediates\\res\\merged\\debug\\layout\\searchbox.xml",
+        "source": "D:\\Users\\earthgee\\AndroidStudioProjects\\MyMap\\PersistentSearch\\src\\main\\res\\layout\\searchbox.xml"
+    }
+]
